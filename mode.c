@@ -28,7 +28,7 @@ void f_mod(stack_t **head, unsigned int counter)
     }
 
     (*head)->next->n %= (*head)->n;
-    *head = pop_stack(*head);
+/*    *head = pop_stack(*head);*/
 }
 
 /**
