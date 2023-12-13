@@ -11,7 +11,6 @@ void f_stack(stack_t **head, unsigned int counter)
     (void)head;
     (void)counter;
     
-    // Alternative implementation with the same output
     bus.lifi = 0;
 
 }
